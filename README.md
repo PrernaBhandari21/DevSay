@@ -1,1 +1,1 @@
-# DevSay - A platform for developers.
+# DevSay - A platform for developers to connect!
