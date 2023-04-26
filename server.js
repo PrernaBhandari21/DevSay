@@ -11,10 +11,10 @@ connectDB();
 app.use(express.json({ extended: false }));
 
 // Define Routes
-app.use('/api/users', require('https://devsay.onrender.com/routes/api/users'));
-app.use('/api/profile', require('https://devsay.onrender.com/routes/api/profile'));
-app.use('/api/auth', require('https://devsay.onrender.com/routes/api/auth'));
-app.use('/api/posts', require('https://devsay.onrender.com/routes/api/posts'));
+app.use('/api/users', require('./routes/api/users'));
+app.use('/api/profile', require('./routes/api/profile'));
+app.use('/api/auth', require('./routes/api/auth'));
+app.use('/api/posts', require('./routes/api/posts'));
 
 // Serve static assets in production
 if (process.env.NODE_ENV === 'production') {

@@ -1,5 +1,6 @@
 {
     "mongoURI": "mongodb+srv://root:root@cluster0.0ixslgw.mongodb.net/?retryWrites=true&w=majority",
-    "jwtSecret": "parzival69"
+    "jwtSecret": "parzival69",
+    "BASE_URL":"https://devsay.onrender.com"
 
 }
