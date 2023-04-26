@@ -1,0 +1,70 @@
+.landing {
+    height: 100vh;
+    background: url('../../img/showcase.jpg') no-repeat center center/cover;
+    /* background-size: cover;
+    background-position: center; */
+    position: relative;
+  }
+  
+  .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .landing-inner {
+    text-align: center;
+  }
+  
+  .landing h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .landing p {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .btn-light {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+    /* background-color: pink !important; */
+
+  }
+
+  
+  .btn-light:hover {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+  }
+  

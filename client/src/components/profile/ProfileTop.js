@@ -18,8 +18,9 @@ const ProfileTop = ({
             <p className='lead'>
                 {status} {company && <span> at {company}</span>}
             </p>
-            <p>{location && <span>{location}</span>}</p>
-            <div className='icons my-1'>
+            <p><i class="fa fa-map-marker" style={{marginRight:"5px"}} aria-hidden="true"></i>
+{location && <span>{location}</span>}</p>
+            {/* <div className='icons my-1'>
                 {website && (
                     <a href={website} target='_blank' rel='noopener noreferrer'>
                         <i className='fas fa-globe fa-2x'></i>
@@ -70,7 +71,7 @@ const ProfileTop = ({
                         <i className='fab fa-linkedin fa-2x'></i>
                     </a>
                 )}
-            </div>
+            </div> */}
         </div>
     );
 };

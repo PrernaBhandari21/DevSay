@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import "./Landing.css";
 
 export const Landing = ({ isAuthenticated }) => {
     if (isAuthenticated) {
@@ -9,6 +10,8 @@ export const Landing = ({ isAuthenticated }) => {
     }
 
     return (
+        
+
         <section className='landing'>
             <div className='dark-overlay'>
                 <div className='landing-inner'>
@@ -21,9 +24,12 @@ export const Landing = ({ isAuthenticated }) => {
                         <Link to='/register' className='btn btn-primary'>
                             Sign Up
                         </Link>
-                        <Link to='/login' className='btn btn-light'>
+                        {/* <Link to='/login' className='btn btn-light'>
                             Sign In
-                        </Link>
+                        </Link> */}
+                        <Link to='/profiles' className='btn btn-light'>
+                        Back to Profiles
+                    </Link>
                     </div>
                 </div>
             </div>

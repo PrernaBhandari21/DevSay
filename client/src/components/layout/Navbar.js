@@ -7,11 +7,19 @@ import { logout } from '../../actions/auth';
 export const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     const authLinks = (
         <ul>
+
             <li>
                 <Link to='/profiles'>
                     <i className='fas fa-code'></i> Developers
                 </Link>
             </li>
+
+            <li>
+                <Link to='/tech-blogs'>
+                    <i className='fas fa-code'></i> Tech-Blogs
+                </Link>
+            </li>
+
             <li>
                 <Link to='/posts'>
                     <i className='fas fa-thumbtack'></i> Posts
@@ -38,8 +46,15 @@ export const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
                     <i className='fas fa-code'></i> Developers
                 </Link>
             </li>
+
             <li>
-                <Link to='/register'>
+                <Link to='/tech-blogs'>
+                    <i className='fas fa-code'></i> Tech-Blogs
+                </Link>
+            </li>
+
+            <li>
+                                <Link to='/register'>
                     <i className='fas fa-user-plus'></i> Register
                 </Link>
             </li>
